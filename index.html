@@ -1,56 +1,79 @@
+<!--Kent Assignment1-->
+
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>My First Webpage</title>
-</head>
-<body>
-    <h1>Kent Loc</h1>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://kit.fontawesome.com/286eb2d46f.js" crossorigin="anonymous"></script>
+		
+		<style>
 
-    <h2>About me</h2>
-    <p>
-        Hello my name is Kent and I am a student at Bridgewater State University. My major is Math and I am considering in
-        applying two minors of Computer Science and Statistics. My favorite hobbies are longboarding and video games. My favorite
-        food is sushi, and I have two cats and one kitten named Teriyaki, Migos, and Marida. One common trait about my cats is that
-        they are both black cats.
-    </p>
+			
+			.center{
+				position: absolute;
+				top: 30%;
+				left: 30%;
+				font-size: 150%;
+				color:#fff;
+				z-index: 1;
+				font-family: Arial, Helvetica, sans-serif;
 
-    <h2>Inspiring links</h2>
-    <ul>
-    <li>
-        <i>Paul's Online Notes</i> <a href="https://tutorial.math.lamar.edu/">https://tutorial.math.lamar.edu/</a>
-    </li>
-    <li>
-        <i>Khan Academy</i> <a href="https://www.khanacademy.org/math/calculus-1">https://www.khanacademy.org/math/calculus-1</a>
-    </li>
-    <li>
-        <i>W3 Schools</i> <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
-    </li>
-    <li>
-        <i>VEX Robotics</i> <a href="https://www.vexrobotics.com/">https://www.vexrobotics.com/"</a>
-    </li>
 
-    <li>Scratch</li> <a href="https://scratch.mit.edu/">https://scratch.mit.edu/</a>
+			}
+			.menu{
+				position: absolute;
+				top: 10%;
+				right: 10%;
+				font-size: 100%;
+				color: #fff;
+				z-index: 1;
 
-    <li>Enigma Machine emulator</li><a href="https://www.101computing.net/enigma-machine-emulator/">https://www.101computing.net/enigma-machine-emulator/</a>
-    
-    <li>Tesseract</li><a href="https://upload.wikimedia.org/wikipedia/commons/5/55/Tesseract.gif">https://upload.wikimedia.org/wikipedia/commons/5/55/Tesseract.gif</a>
 
-    <li>Coffee Donut cup</li><a href="https://www.youtube.com/watch?v=4iHjt2Ovqag">https://www.youtube.com/watch?v=4iHjt2Ovqag</a>
+			}
 
-    <li>Flatland: A Romance of Many Dimensions</li><a href="https://ned.ipac.caltech.edu/level5/Abbott/paper.pdf">https://ned.ipac.caltech.edu/level5/Abbott/paper.pdf
+			video{
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				width: 100%;
+				height: 100%;
+				object-fit:cover;
+				opacity: 1;
+			}
+		
+		
+		</style>
+		<title>Assignment1</title>
+	</head>
 
-    </a>
-    </ul>
+	<body>
+		
+		<header class="center">
 
-    <a href="main.html">Assignment0</a>
+			<div>
+				<h2>Kent Loc</h2>
+				<h3>Here's my home page</h3>
+			</div>
+		
+		</header>
+		
+		<!--video autoplay muted loop id="Background"><source src="background.mp4" type="video/mp4"></video-->
+		
 
-    <p>
-         
-    </p>
+		<video autoplay muted loop>
+			<source src="background.mp4" type="video/mp4">
+		  </video> 
+		
 
-    
-    
+		
+			<div class="menu">
 
-</body>
+					<p><a href="ufo.html"><i class="fas  fa-address-card">About me</i></a></p>
+					<p><a href="Resume.pdf"><i class="fas  fa-file user"> Resume</i></a></p>
+					<p><a href="https://www.bridgew.edu/"><i class="fas  fa-book"> School</i></a></p>
+					<p><a href="https://www.bridgew.edu/center/case/observatory/student-research"><i class="fas  fa-laptop-house"> Work</i></a></p>
+			</div>
+		
+		
+	</body>
 </html>
